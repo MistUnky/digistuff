@@ -518,9 +518,9 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "digistuff:junctionbox",
 	recipe = {
-		{"homedecor:plastic_sheeting","digilines:wire_std_00000000","homedecor:plastic_sheeting",},
+		{"default:paper","digilines:wire_std_00000000","default:paper",},
 		{"digilines:wire_std_00000000","digilines:wire_std_00000000","digilines:wire_std_00000000",},
-		{"homedecor:plastic_sheeting","digilines:wire_std_00000000","homedecor:plastic_sheeting",},
+		{"default:paper","digilines:wire_std_00000000","default:paper",},
 	}
 })
 

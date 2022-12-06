@@ -75,7 +75,7 @@ minetest.register_craft({
 	output = "digistuff:timer 2",
 	recipe = {
 		{"","mesecons:wire_00000000_off","default:coal_lump"},
-		{"digilines:wire_std_00000000","basic_materials:ic","mesecons:wire_00000000_off"},
+		{"digilines:wire_std_00000000","mesecons_materials:silicon","mesecons:wire_00000000_off"},
 		{"","mesecons:wire_00000000_off","default:paper"},
 	}
 })

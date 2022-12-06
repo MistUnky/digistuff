@@ -160,17 +160,17 @@ minetest.register_node("digistuff:eeprom", {
 minetest.register_craft({
 	output = "digistuff:ram",
 	recipe = {
-		{"basic_materials:plastic_sheet","basic_materials:plastic_sheet","basic_materials:plastic_sheet"},
-		{"mesecons_gates:nand_off","basic_materials:plastic_sheet","mesecons_gates:nand_off"},
-		{"mesecons:wire_00000000_off","basic_materials:silicon","mesecons:wire_00000000_off"},
+		{"default:paper","default:paper","default:paper"},
+		{"mesecons_gates:nand_off","default:paper","mesecons_gates:nand_off"},
+		{"mesecons:wire_00000000_off","mesecons_materials:silicon","mesecons:wire_00000000_off"},
 	}
 })
 
 minetest.register_craft({
 	output = "digistuff:eeprom",
 	recipe = {
-		{"basic_materials:plastic_sheet","mesecons:wire_00000000_off","basic_materials:plastic_sheet"},
-		{"digilines:wire_std_00000000","basic_materials:plastic_sheet","digilines:wire_std_00000000"},
-		{"mesecons:wire_00000000_off","basic_materials:silicon","mesecons:wire_00000000_off"},
+		{"default:paper","mesecons:wire_00000000_off","default:paper"},
+		{"digilines:wire_std_00000000","default:paper","digilines:wire_std_00000000"},
+		{"mesecons:wire_00000000_off","mesecons_materials:silicon","mesecons:wire_00000000_off"},
 	}
 })

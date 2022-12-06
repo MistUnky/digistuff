@@ -88,7 +88,7 @@ minetest.register_node("digistuff:heatsink_onic", {
 minetest.register_craft({
 	output = "digistuff:heatsink",
 	recipe = {
-		{"basic_materials:steel_strip","basic_materials:steel_strip","basic_materials:steel_strip"},
+		{"default:copper_ingot","default:copper_ingot","default:copper_ingot"},
 		{"","default:steel_ingot",""}
 	}
 })

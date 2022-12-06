@@ -92,8 +92,8 @@ minetest.register_abm({
 minetest.register_craft({
 	output = "digistuff:camera",
 	recipe = {
-		{"homedecor:plastic_sheeting","homedecor:plastic_sheeting","homedecor:plastic_sheeting"},
-		{"default:glass","homedecor:ic","mesecons_luacontroller:luacontroller0000"},
-		{"homedecor:plastic_sheeting","homedecor:plastic_sheeting","homedecor:plastic_sheeting"},
+		{"default:paper","default:paper","default:paper"},
+		{"default:glass","mesecons_materials:silicon","mesecons_luacontroller:luacontroller0000"},
+		{"default:paper","default:paper","default:paper"},
 	}
 })

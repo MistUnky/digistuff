@@ -105,7 +105,7 @@ minetest.register_node("digistuff:card_reader",{
 minetest.register_craft({
 	output = "digistuff:card",
 	recipe = {
-		{"basic_materials:plastic_sheet",},
+		{"default:paper",},
 		{"default:iron_lump",},
 	}
 })
@@ -113,8 +113,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "digistuff:card_reader",
 	recipe = {
-		{"basic_materials:plastic_sheet","basic_materials:plastic_sheet","digilines:wire_std_00000000",},
-		{"basic_materials:plastic_sheet","basic_materials:copper_wire","mesecons_luacontroller:luacontroller0000",},
-		{"basic_materials:plastic_sheet","basic_materials:plastic_sheet","",},
+		{"default:paper","default:paper","digilines:wire_std_00000000",},
+		{"default:paper","default:copper_ingot","mesecons_luacontroller:luacontroller0000",},
+		{"default:paper","default:paper","",},
 	}
 })

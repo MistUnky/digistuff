@@ -89,7 +89,7 @@ end
 minetest.register_craft({
 	output = "digistuff:piezo",
 	recipe = {
-		{crystal,"basic_materials:steel_strip"},
+		{crystal,"default:steel_ingot"},
 		{"digilines:wire_std_00000000","mesecons_luacontroller:luacontroller0000"},
 	},
 })
